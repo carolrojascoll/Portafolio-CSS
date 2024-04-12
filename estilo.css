@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 5px; /* Ajusta el margen inferior*/
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .nom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2; 
+    max-width: 640px;
+    border: 1px solid black; /*  borde */
+    margin: 0 auto; /* Esto centrará el elemento horizontalmente */
+    margin-top: 30px; /* Ajusta el margen superior del párrafo p */
+  }
+
+  .formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .ex{
+    font-weight: bold;
+    background-color: aqua;
+  }
+  .campo {
+    margin-bottom: 15px;
+    background-color: aqua;
+    font-weight: bold;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 90px;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .primario{
+    background-color: white; /* Color de fondo para todos los botones */
+    color: black; /* Color del texto para todos los botones */
+    border: 1px solid black; /* Añadir borde a todos los botones */
+    padding: 3px 60px; /* Ajustar el relleno según sea necesario */
+    
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
